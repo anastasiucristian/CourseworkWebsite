@@ -1,0 +1,41 @@
+head{	
+}
+
+body{
+	margin:0;
+	padding:0;
+	background:#66B9BF;
+}
+
+footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background:#07889B;
+}
+
+.middle{
+	color: white;
+	font-family: source sans pro,noto-sans;
+	font-size:35px;
+}
+
+#input{
+	resize:none;
+	height:200px;
+	width:600px;
+	font-size:20px;
+}
+
+#output{
+	resize:none;
+	height:200px;
+	width:600px;
+	font-size:20px;
+}
+
+.list{
+	color: white;
+	font-family: source sans pro,noto-sans;
+	font-size:25px;
+}
