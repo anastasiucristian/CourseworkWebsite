@@ -218,16 +218,3 @@ function reverse(){
 	
     document.getElementById('output').value = result ;
 }
-	
-function test(){
-	var x = document.getElementById("input").value;
-	var result='';
-	for (var i = 0, len = x.length; i < len; i++) {
-		if(x.charCodeAt(i) > 64 &&  x.charCodeAt(i) < 91)
-			result += 'U';
-		else if (x.charCodeAt(i) > 95 && x.charCodeAt(i) < 123)
-			result += 'l';				
-	}
-    document.getElementById('output').value = result ;
-}
-
